@@ -1,0 +1,119 @@
+body {
+    /* Mudar cor do fundo */
+    background-color: #000000!important;
+    /* Mudar família da fonte */
+    font-family:'Montserrat', sans-serif!important;
+    /* Mudar cor da fonte */
+    color: #ffffff!important;
+    /* Não alterar */
+    font-size: 1.1rem!important;
+    line-height: 1.5rem!important;
+    text-align: center!important;
+    
+}
+
+.container-fluid {
+    width: auto;
+    height: auto;
+}
+
+/* PHOTO */
+.photo {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.photo img {
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+/* TITLE */
+.title h1 {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.title h2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 5px;
+}
+
+/* LINKS*/
+.links {
+    margin-bottom: 40px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.links a {
+    font-size: 15px;
+}
+
+/* BOTÃO */
+.botao {
+    /* Mudar cor da fonte do botão */
+    color: #000000;
+    /* Mudar cor de fundo do botão */
+    background-color: #ffffff;
+    /* Não alterar */
+    max-width: 100%;
+    min-height: 20px;
+    margin-top: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    border-radius: 50px;
+    padding: 1px;
+    
+}
+
+.botao:hover {
+    /* Cor do texto e fundo - Quando tem link */
+    color: #ffffff;
+    background-color: #e7323f;
+}
+
+/* SOCIAL */
+.social {
+    margin-top: 190px;
+}
+.social a i {
+    text-decoration: none;
+    /* Mudar cor da fonte do ícone */
+    color: #ffffff;
+}
+
+.social a:hover {
+    /* Cor do ícone - Quando tem link */
+    text-decoration: none;
+    color: #e7323f;
+}
+
+.social ul li {
+    display:inline;
+    list-style-type: none;
+    
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    margin-top: 50px;
+    font-size: 0.8rem;
+    line-height: 2px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #e7323f;
+}
